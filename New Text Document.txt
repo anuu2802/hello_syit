@@ -1,0 +1,13 @@
+import java.util.*;
+class SumOfDigits
+{
+	public static void main(String [] args)
+	{
+		scanner ob = new scanner(System.in);
+		System.out.println("enter any number: ");
+		String s = ob.nextLine();
+		Count(s);
+	}
+	public static void count(String str)
+	{
+		
